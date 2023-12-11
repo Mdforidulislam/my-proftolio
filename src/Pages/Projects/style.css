@@ -1,0 +1,20 @@
+/* Add a custom class for scrolling */
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Define the scrolling class styles */
+  .scrolling {
+    animation: scrollAnimation 5s linear infinite; /* Adjust the duration as needed */
+  }
+  
+  /* Keyframes for scrolling animation */
+  @keyframes scrollAnimation {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-600px); /* Adjust the scrolling distance */
+    }
+  }
+  

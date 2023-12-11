@@ -1,0 +1,4 @@
+.background-boyd{
+    background: rgb(43,77,136);
+    background: radial-gradient(circle, rgba(43,77,136,1) 0%, rgba(12,37,74,1) 33%, rgba(11,36,71,1) 100%);
+}
